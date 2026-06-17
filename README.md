@@ -403,18 +403,55 @@ The API was tested using Postman.
 ## Screenshots 
 
 * Home Route
+![Home Route](./screenshots/home-route.png)
 * User Registration
+![Register](./screenshots/register.png)
 * User Login
+![Login](./screenshots/login.png)
 * Create Task
+![Create Task](./screenshots/POST.png)
 * Get All Tasks
+![Get Tasks](./screenshots/GET.png)
 * Update Task
+![Update Task](./screenshots/PUT.png)
 * Delete Task
+![Delete Task](./screenshots/DELETE.png)
 * Unauthorized Access
+![Unauthorized](./screenshots/unauthorized-access.png)
 * Pagination Page 1
+![Pagination Page 1](./screenshots/pagination-pg1.png)
 * Pagination Page 2
+![Pagination Page 2](./screenshots/pagination-pg2.png)
 * Filtering Results
-* Users Collection
-* Tasks Collection
+![Filter Priority](./screenshots/filtered-highPriority.png)
+* MongoDB Users Collection
+![Users Collection](./screenshots/user-collection.png)
+* MongoDB Tasks Collection
+![Tasks Collection](./screenshots/task-collection.png)
+
+
+---
+
+## Live Deployment
+
+### API Base URL
+
+https://taskmanagementapi-al76.onrender.com
+
+### Test Endpoint
+
+GET /
+
+Response:
+
+```json
+{
+  "message": "Task Management API Running"
+}
+```
+
+The API is deployed on Render and connected to MongoDB Atlas for persistent cloud database storage.
+
 
 ---
 
